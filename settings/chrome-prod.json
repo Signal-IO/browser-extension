@@ -9,7 +9,7 @@
   "serviceUrl": "https://h.travr.se/",
   "websocketUrl": "wss://h.travr.se/ws",
 
-  "oauthClientId": "e366c686-7315-11e8-9d47-cf05386b2d8d",
+  "oauthClientId": "8501bf88-731a-11e8-8459-c7faed5f6d8b",
   "oauthEnabled": true,
 
   "browserIsChrome": true,

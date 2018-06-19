@@ -3,7 +3,7 @@
 set -eu
 
 CHROME_STAGE_EXT_ID=iahhmhdkmkifclacffbofcnmgkpalpoj
-CHROME_PROD_EXT_ID=bjfhmglciegochdpefhhlphglcehbmek
+CHROME_PROD_EXT_ID=fgnedpklfijmpcadfmalcjbclhlafdec
 
 upload_and_publish_chrome_stage_ext() {
   # Upload and publish stage extension

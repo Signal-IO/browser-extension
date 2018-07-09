@@ -4,13 +4,13 @@
 
 
 
-  "apiUrl": "https://h.travr.se/api/",
-  "authDomain": "h.travr.se",
-  "bouncerUrl": "https://h.travr.se/",
-  "serviceUrl": "https://h.travr.se/",
-  "websocketUrl": "wss://h.travr.se/ws",
+  "apiUrl": "https://travr.se/api/",
+  "authDomain": "travr.se",
+  "bouncerUrl": "https://travr.se/",
+  "serviceUrl": "https://travr.se/",
+  "websocketUrl": "wss://travr.se/ws",
 
-  "oauthClientId": "134b6e12-749a-11e8-813b-23e004f10c48",
+  "oauthClientId": "a533e8b4-83b7-11e8-a510-877f4840505c",
   "oauthEnabled": true,
 
   "browserIsChrome": true,

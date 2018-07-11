@@ -13,8 +13,6 @@
   "oauthClientId": "a533e8b4-83b7-11e8-a510-877f4840505c",
   "oauthEnabled": true,
 
-  "googleAnalytics": "UA-121886091-1",
-
   "browserIsChrome": true,
   "appType": "chrome-extension"
 }

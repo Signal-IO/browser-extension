@@ -14,14 +14,14 @@ if ! git diff --quiet HEAD ; then
 fi
 
 # Fetch commits from main repo and write commit ref to `.git/FETCH_HEAD`
-git fetch --quiet https://github.com/Signal-IO/travrse-browser-extension.git master
+git fetch --quiet https://github.com/Signal-IO/travrse-browser-extension.git production
 
 # Check that HEAD is the latest commit on the
 # github.com/hypothesis/browser-extension repo.
 remote_head=$(cat .git/FETCH_HEAD | cut -f1)
 local_head=$(git rev-parse HEAD)
 if [ $remote_head != $local_head ]; then
-  echo "Current commit does not match head of signal-io/travrse-browser-extension.git:master"
+  echo "Current commit does not match head of signal-io/travrse-browser-extension.git:production"
   exit 1
 fi
 

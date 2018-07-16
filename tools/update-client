@@ -5,7 +5,7 @@
 
 set -eu
 
-LATEST_CLIENT_VERSION=$(npm view hypothesis version)
+LATEST_CLIENT_VERSION=$(npm view travrse version)
 
 # Check that working tree is clean
 if ! git diff --quiet HEAD ; then
@@ -21,14 +21,14 @@ git fetch --quiet https://github.com/Signal-IO/travrse-browser-extension.git mas
 remote_head=$(cat .git/FETCH_HEAD | cut -f1)
 local_head=$(git rev-parse HEAD)
 if [ $remote_head != $local_head ]; then
-  echo "Current commit does not match head of hypothesis/browser-extension.git:master"
+  echo "Current commit does not match head of signal-io/travrse-browser-extension.git:master"
   exit 1
 fi
 
 # Update client to latest version on npm
-npm install --save-dev hypothesis@$LATEST_CLIENT_VERSION
+npm install --save-dev travrse@$LATEST_CLIENT_VERSION
 git add package.json package-lock.json
-git commit -m "Update Hypothesis client to $LATEST_CLIENT_VERSION"
+git commit -m "Update Travrse Web Client to $LATEST_CLIENT_VERSION"
 
 # Tag new browser extension release with the same version number as the client
 npm version $LATEST_CLIENT_VERSION

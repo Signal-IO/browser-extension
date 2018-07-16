@@ -49,5 +49,7 @@
     "preversion": "npm run test",
     "test": "karma start tests/karma.config.js --single-run"
   },
-  "dependencies": {}
+  "dependencies": {
+    "travrse": "^1.82.0"
+  }
 }

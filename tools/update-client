@@ -17,7 +17,7 @@ fi
 git fetch --quiet https://github.com/Signal-IO/travrse-browser-extension.git production
 
 # Check that HEAD is the latest commit on the
-# github.com/hypothesis/browser-extension repo.
+# github.com/signal-io/travrse-browser-extension repo.
 remote_head=$(cat .git/FETCH_HEAD | cut -f1)
 local_head=$(git rev-parse HEAD)
 if [ $remote_head != $local_head ]; then

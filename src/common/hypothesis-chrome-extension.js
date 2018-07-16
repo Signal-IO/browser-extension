@@ -265,7 +265,7 @@ function HypothesisChromeExtension(dependencies) {
             return;
           }
           if (!errors.shouldIgnoreInjectionError(err)) {
-            errors.report(err, 'Injecting Hypothesis sidebar', {
+            errors.report(err, 'Injecting Travrse sidebar', {
               url: tab.url,
             });
           }

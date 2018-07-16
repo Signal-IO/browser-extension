@@ -5,8 +5,8 @@
   "description": "Collaboratively create private discussion layers on the web",
   "license": "BSD-2-Clause",
   "homepage": "h.travr.se",
-  "bugs": "https://github.com/hypothesis/browser-extension/issues",
-  "repository": "hypothesis/browser-extension",
+  "bugs": "https://github.com/signal-io/travrse-browser-extension/issues",
+  "repository": "signal-io/travrse-browser-extension",
   "devDependencies": {
     "babel-preset-env": "^1.5.2",
     "babelify": "^7.3.0",

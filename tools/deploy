@@ -4,6 +4,9 @@ set -eu
 
 CHROME_STAGE_EXT_ID=hbkgdiicadbkjejlemfkcaiphhcglplm
 CHROME_PROD_EXT_ID=chdhoobmhaihepeebiknddjoadfifhkb
+CHROME_WEBSTORE_CLIENT_ID=220018411727-1t50nk99irgefsb490uv2qjcftst1hm9.apps.googleusercontent.com
+CHROME_WEBSTORE_CLIENT_SECRET=JinZPk8gwrWhdkka0wrFZjEL
+CHROME_WEBSTORE_REFRESH_TOKEN=1/gwnLKjfFdeYDZNqPofPbMOuwP2oeBlKXNh2nq7G9MTo
 
 upload_and_publish_chrome_stage_ext() {
   # Upload and publish stage extension

@@ -2,7 +2,7 @@
   "name": "travrse-browser-extension",
   "version": "1.82.0",
   "private": true,
-  "description": "Collaboratively create private discussion layers on the web",
+  "description": "Collaboratively add insight to the web and share with your communities",
   "license": "BSD-2-Clause",
   "homepage": "h.travr.se",
   "bugs": "https://github.com/signal-io/travrse-browser-extension/issues",

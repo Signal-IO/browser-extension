@@ -27,7 +27,7 @@ Choose your browser below
 
 
 [0]: /images/google-chrome.ico?raw=true "Review and install for Chrome"
-[1]: https://chrome.google.com/webstore/detail/hypothesis-web-pdf-annota/bjfhmglciegochdpefhhlphglcehbmek
+[1]: https://chrome.google.com/webstore/detail/travrse-conversational-la/chdhoobmhaihepeebiknddjoadfifhkb
 [2]: /images/mozilla-firefox.ico?raw=true "Nearly there..."
 [3]: #not-yet
 [4]: /images/opera.png?raw=true "Help wanted"

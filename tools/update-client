@@ -14,7 +14,7 @@ if ! git diff --quiet HEAD ; then
 fi
 
 # Fetch commits from main repo and write commit ref to `.git/FETCH_HEAD`
-git fetch --quiet https://github.com/hypothesis/browser-extension.git master
+git fetch --quiet https://github.com/Signal-IO/travrse-browser-extension.git master
 
 # Check that HEAD is the latest commit on the
 # github.com/hypothesis/browser-extension repo.

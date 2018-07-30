@@ -230,7 +230,7 @@ function SidebarInjector(chromeTabs, dependencies) {
       // (or some other format). In some cases we could extract the original
       // URL and open that in the Hypothesis viewer instead.
       var protocol = tab.url.split(':')[0];
-      return Promise.reject(new errors.RestrictedProtocolError('Cannot load Hypothesis into ' + protocol + ' pages'));
+      return Promise.reject(new errors.RestrictedProtocolError('Cannot load Travrse into ' + protocol + ' pages'));
     }
 
     return detectTabContentType(tab).then(function (type) {
@@ -245,7 +245,7 @@ function SidebarInjector(chromeTabs, dependencies) {
               typeof result.installedURL === 'string' &&
               result.installedURL.indexOf(extensionURL('/')) === -1) {
             throw new errors.AlreadyInjectedError(
-              'Hypothesis is already injected into this page'
+              'Travrse is already injected into this page'
             );
           }
         });

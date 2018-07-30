@@ -1,16 +1,19 @@
 {
-  "buildType": "staging",
+  "buildType": "production",
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwZDXEnjJFmW1IHhxjKVGMLt7kglJWfBaLffDOs5/y/KQmq0MdXO2H73NhbVRt+WyMMhHSqq/YOnK2e08Tz37as4KU2oHs3oIMLdmsyz+q9CTDO1fW/oKPCsDWX8OvDZG0JRDplflrBo/YX4pW4npO4QNIVqbXn1gMjla+pFiJYQcaSovl7Wr1+mBCtxmDd2vKQKox4avg2bWe+9yPpz0FjecsR2wCacU3fwTVWi2xZ1rPLG4z9QBaoov1SN0aKJEScGklyY3jL7gEYTi/32HQvbksXnmOj3VxPiFKEZ+AVHslx3bLVQViNqZjQctkRlMiv/9Mvfj97S27zQJaFEpnQIDAQAB",
 
-  "apiUrl": "https://travr.se/api/",
-  "authDomain": "travr.se",
-  "bouncerUrl": "https://travr.se/",
-  "serviceUrl": "https://travr.se/",
-  "websocketUrl": "wss://travr.se/ws",
+  "apiUrl": "https://cataclysm.travr.se/api/",
+  "authDomain": "cataclysm.travr.se",
+  "bouncerUrl": "https://cataclysm.travr.se/",
+  "serviceUrl": "https://cataclysm.travr.se/",
+  "websocketUrl": "wss://cataclysm.travr.se/ws",
 
-  "oauthClientId": "a533e8b4-83b7-11e8-a510-877f4840505c",
+  "oauthClientId": "6626dd1e-8c42-11e8-8ef3-8322dbb75b1a",
   "oauthEnabled": true,
 
   "browserIsChrome": true,
   "appType": "chrome-extension"
 }
+
+
 

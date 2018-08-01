@@ -13,7 +13,7 @@ var states = {
 /** The default H state for a new browser tab */
 var DEFAULT_STATE = {
   /** Whether or not H is active on the page */
-  state: states.INACTIVE,
+  state: states.ACTIVE,
   /** The count of annotations on the page visible to the user,
    * as returned by the badge API
    */

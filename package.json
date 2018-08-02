@@ -4,7 +4,7 @@
   "private": true,
   "description": "Collaboratively add insight to the web and share with your communities",
   "license": "BSD-2-Clause",
-  "homepage": "h.travr.se",
+  "homepage": "travr.se",
   "bugs": "https://github.com/signal-io/travrse-browser-extension/issues",
   "repository": "signal-io/travrse-browser-extension",
   "devDependencies": {
